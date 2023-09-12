@@ -1,0 +1,26 @@
+.select {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 5px 0px;
+  padding-right: 20px;
+}
+
+select {
+  padding: 13px 18px;
+  background-color: #1f2937;
+  border: none;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+option {
+  font-size: 14px;
+}

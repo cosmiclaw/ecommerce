@@ -1,0 +1,15 @@
+.fixed_cart_Icon {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  z-index: 20;
+  background-color: #ff3565;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}

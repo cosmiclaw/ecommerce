@@ -1,0 +1,52 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.user-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.user-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-avatar h3 {
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.logout {
+  margin-left: 20px;
+  color: #ff3565;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.orders-link {
+  margin-left: 20px;
+  color: #454f5c;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.orders-link:hover {
+  text-decoration: underline;
+}

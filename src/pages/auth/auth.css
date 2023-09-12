@@ -1,0 +1,36 @@
+.auth-container {
+  max-width: 430px;
+  width: 100%;
+  margin: 60px auto;
+  background-color: #111827;
+  border: 1px solid #565252;
+  border-radius: 9px;
+  overflow: hidden;
+  padding: 25px 20px;
+}
+
+.auth-container p {
+  margin-bottom: 20px;
+  margin-top: 8px;
+  color: rgba(156, 163, 175, 1);
+}
+
+.auth-container > div {
+  margin-top: 10px;
+}
+
+.auth-container input::placeholder {
+  color: rgba(156, 163, 175, 1);
+}
+
+.auth-container button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px;
+}
+
+.auth-link-text {
+  text-align: center;
+  padding-top: 8px;
+  margin-bottom: 0px !important;
+}

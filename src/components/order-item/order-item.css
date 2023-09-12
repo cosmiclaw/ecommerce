@@ -1,0 +1,45 @@
+.order-item {
+  display: flex;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(55, 65, 81, 1);
+}
+
+.order-item img {
+  width: 100px;
+}
+
+.order-details {
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-id {
+  font-size: 14px;
+}
+
+.order-id span {
+  color: rgba(156, 163, 175, 1);
+  font-weight: 400;
+}
+
+.order-name {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.order-name span {
+  color: rgba(156, 163, 175, 1);
+  font-weight: 400;
+}
+
+.order-desc {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.order-desc span {
+  color: rgba(156, 163, 175, 1);
+  font-weight: 400;
+}

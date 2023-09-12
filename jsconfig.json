@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "@components": ["./components"],
+        "@containers": ["./containers"],
+        "@hooks": ["./hooks"],
+        "@data": ["./data"],
+        "@icons": ["./icons"],
+        "@utils": ["./utils"],
+        "@pages": ["./pages"],
+        "@fbase": ["./firebase"],
+        "@context": ["./context"]
+      }
+    },
+    "exclude": ["node_modules"]
+  }

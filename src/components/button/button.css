@@ -1,0 +1,41 @@
+.btn {
+  background: transparent;
+  outline: none;
+  border: 1px solid #565252;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: rgba(31, 41, 55, 1);
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
+.btn-gradient {
+  background: linear-gradient(90.07deg, #ff3565 2.32%, #ff3596 90.7%);
+  border: none;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(90.05deg, #ff3565 0.04%, #f17cb1 99.96%);
+}
+
+.btn-large {
+  background-image: linear-gradient(to right, #ef4444, #ec4899);
+  font-size: 20px;
+  padding: 20px 30px;
+}
+
+.btn-loading {
+  margin-right: 10px;
+}
